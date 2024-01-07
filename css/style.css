@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+body{
+    background-color: #F7ECDE;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.mainhead h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+.mainhead h1::after{
+content: '';
+position: absolute;
+width: 24%;
+height: 30%;
+left: 38%;
+bottom: 0;
+z-index: -1;
+background-color: #fec260;
+transition: all 0.4s;
+}
+.mainhead h1:hover::after{
+      height: 70%;
+}
+hr{
+border: 1px dashed black;
+}
+
+.container .mainhead .bookmarkBody h2{
+    font-family:"Righteous", cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container .mainhead .bookmarkBody label{
+    font-family: "PT Sans Caption",sans-serif;
+    font-size: 16px;
+}
+
+.container .mainhead .bookmarkBody input{
+    font-family: "PT Sans Caption",sans-serif;
+    font-size: 16px;
+}
+
