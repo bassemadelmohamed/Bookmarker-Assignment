@@ -61,17 +61,3 @@ function deleteItem( index ){
 
 }
 
-
-// function visitSite(){
-// alert(bookmarkURL.value)
-// // display()
-// }
-
-// function visitSite(URL) {
-// //     // You can replace 'https://example.com' with the desired URL
-// //     // var websiteUrl = bookmarkURL.value ;
-// //     window.location.href= URL;
-
-// //     // Open the URL in a new tab/window
-// //     // window.open(websiteUrl, '_blank');
-// // }
